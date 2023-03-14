@@ -1,0 +1,9 @@
+*{
+    background-color:rgb(128, 228, 223);
+}
+.My_title{
+    color:rgb(83, 83, 245);
+    text-align: center;
+    font-size: 48px;
+    font-family: "Arial Narrow",sans-serif;
+}
