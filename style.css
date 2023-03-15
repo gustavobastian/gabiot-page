@@ -1,8 +1,11 @@
 *{
-    background-color:rgb(128, 228, 223);
+    
+        /* Base64 encoded transparent gif */
+    background: url(./img/Sea\ Blue.jpg);
+    
 }
 .My_title{
-    color:rgb(83, 83, 245);
+    color:rgb(140, 140, 243);
     text-align: center;
     font-size: 48px;
     font-family: "Arial Narrow",sans-serif;
