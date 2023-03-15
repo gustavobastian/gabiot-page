@@ -5,8 +5,27 @@
     
 }
 .My_title{
-    color:rgb(140, 140, 243);
+    color:rgb(92, 241, 155);
     text-align: center;
     font-size: 48px;
     font-family: "Arial Narrow",sans-serif;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer.rigth{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer.left{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
