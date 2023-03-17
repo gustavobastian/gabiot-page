@@ -63,8 +63,8 @@ a{
     height: 200px;
     margin-left: 0%;
     margin-right: 0%;
-    background: url(./img/Forever\ Lost.jpg);
-    /*background-color: greenyellow;*/
+    
+    background-color: lightblue;
 }
 
 .allText{
