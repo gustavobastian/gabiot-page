@@ -9,12 +9,17 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;
+    width: min(1000px,100%);
     margin:0;    
     padding-left: 10%;
     padding-right: 10%;
+<<<<<<< HEAD
     height: 100VH;
 
+=======
+    height: 100vh;
+    background: rgb(83, 151, 151);
+>>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     
 }
 .header{
@@ -23,18 +28,27 @@ body{
     justify-content: space-between;
     margin-left: 0%;
     margin-right: 0%;
+<<<<<<< HEAD
     /*background: url(./img/cordillera.jpg);*/
     /*background-color: rgb(123, 35, 131);*/
+=======
+    
+    background: transparent;
+>>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     color:white;
+    
 }
 .logo{
     display: flex;
-    justify-content: center;    
+    justify-content: space-around;    
     align-items: center;
+    width: 100%;
     text-align: center;    
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bold;
     font-family: "Arial Narrow",sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .link{
     display: flex;
@@ -53,8 +67,15 @@ a{
 .container1{
     display:flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    justify-content: space-around;
+    align-items:normal;
+>>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     height: 200px;
+    width: 100%;
     margin-left: 0%;
+<<<<<<< HEAD
     margin-right: 0%;
     background-color:transparent;
     justify-content: center;
@@ -67,33 +88,70 @@ a{
     color:rgb(24, 43, 216);
 
 }
+=======
+    margin-bottom: 10px;
+    margin-right: 0%; 
+    padding-bottom: 25px;   
+    background:  rgb(119, 161, 161);
+    border-radius: 30px;
+>>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
 
+}
+.text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;    
+    font-size: 18px;
+    text-align: center;
+    color:rgb(18, 26, 20);    
+    
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+}
+.text3{
+    display: flex;
+    flex-direction: row;
+}
 
 .container2{
     display:flex;
     flex-direction: row;
-    height: 200px;
+    height: auto;
     margin-left: 0%;
     margin-right: 0%;
+    margin-bottom: 10px;
+    padding-left: 2%;
+    background-color: transparent;
+    border-radius: 30px;
     
-    background-color: lightblue;
 }
 
 .allText{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:50%;
+    width:47.5%;
+    margin-right: 2.5%;
     color:black;
+    color:rgb(25, 29, 29);
+    border-radius: 30px;
+    background-color: rgb(126, 153, 161);
 }
 
 .imageText{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:50%;
+    margin-left: 2.5%;
+    width:47.5%;
     background-color:white;
     text-align: center;
+    border-radius: 30px;
 }
 
 
@@ -102,7 +160,8 @@ a{
     height: 200px;
     margin-left: 0%;
     margin-right: 0%;
-    background-color: rgb(204, 204, 204);
+    background: rgb(119, 161, 161);
+    border-radius: 30px;
 }
 
 
@@ -118,7 +177,11 @@ footer{
     align-items: center;
     margin-top: auto;
     justify-content: space-between;
+<<<<<<< HEAD
     background-color: transparent; 
+=======
+    background: transparent;
+>>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 18px;
