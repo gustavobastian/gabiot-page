@@ -5,6 +5,7 @@ body{
     
         /* Base64 encoded transparent gif */
     /*background: url(./img/Forever\ Lost.jpg);*/
+    background: url(./img/cordillera.jpg);
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +13,8 @@ body{
     margin:0;    
     padding-left: 10%;
     padding-right: 10%;
-    height: 100vh;
+    height: 100VH;
+
     
 }
 .header{
@@ -21,8 +23,8 @@ body{
     justify-content: space-between;
     margin-left: 0%;
     margin-right: 0%;
-    /*background: url(./img/Forever\ Lost.jpg);*/
-    background-color: rgb(123, 35, 131);
+    /*background: url(./img/cordillera.jpg);*/
+    /*background-color: rgb(123, 35, 131);*/
     color:white;
 }
 .logo{
@@ -50,10 +52,20 @@ a{
 
 .container1{
     display:flex;
+    flex-direction: column;
     height: 200px;
     margin-left: 0%;
     margin-right: 0%;
-    background-color: rgb(204, 204, 204);
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    color:rgb(24, 43, 216);
+
 }
 
 
@@ -106,7 +118,7 @@ footer{
     align-items: center;
     margin-top: auto;
     justify-content: space-between;
-    background-color: rgb(123, 35, 131); 
+    background-color: transparent; 
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 18px;
