@@ -6,6 +6,7 @@ body{
         /* Base64 encoded transparent gif */
     /*background: url(./img/Forever\ Lost.jpg);*/
     background: url(./img/cordillera.jpg);
+    background-size: 150%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -13,13 +14,8 @@ body{
     margin:0;    
     padding-left: 10%;
     padding-right: 10%;
-<<<<<<< HEAD
-    height: 100VH;
+    height: min(1000px,100VH);
 
-=======
-    height: 100vh;
-    background: rgb(83, 151, 151);
->>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     
 }
 .header{
@@ -28,13 +24,8 @@ body{
     justify-content: space-between;
     margin-left: 0%;
     margin-right: 0%;
-<<<<<<< HEAD
     /*background: url(./img/cordillera.jpg);*/
     /*background-color: rgb(123, 35, 131);*/
-=======
-    
-    background: transparent;
->>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     color:white;
     
 }
@@ -67,15 +58,9 @@ a{
 .container1{
     display:flex;
     flex-direction: column;
-<<<<<<< HEAD
-=======
-    justify-content: space-around;
-    align-items:normal;
->>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     height: 200px;
     width: 100%;
     margin-left: 0%;
-<<<<<<< HEAD
     margin-right: 0%;
     background-color:transparent;
     justify-content: center;
@@ -88,15 +73,8 @@ a{
     color:rgb(24, 43, 216);
 
 }
-=======
-    margin-bottom: 10px;
-    margin-right: 0%; 
-    padding-bottom: 25px;   
-    background:  rgb(119, 161, 161);
-    border-radius: 30px;
->>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
 
-}
+
 .text1{
     display: flex;
     flex-direction: row;
@@ -177,11 +155,7 @@ footer{
     align-items: center;
     margin-top: auto;
     justify-content: space-between;
-<<<<<<< HEAD
     background-color: transparent; 
-=======
-    background: transparent;
->>>>>>> 81726a697e99550212a4510e20c16fb23ccbdbe2
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 18px;
