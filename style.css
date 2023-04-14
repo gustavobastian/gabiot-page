@@ -3,14 +3,14 @@
 }
 body{
     
-    background: linear-gradient(black,red);
+    
     background-size: 150%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: max(1000px,100%);
+    width: 100%;
     margin:0;            
-    height: max(1000px,100VH);
+    height: (100vh);
 
     
 }
@@ -21,6 +21,7 @@ body{
     margin-left: 0%;
     margin-right: 0%;    
     color:white;
+    background: linear-gradient(black,blue);
     
 }
 .logo{
@@ -49,24 +50,6 @@ a{
     color:white;
 }
 
-.container1{
-    display:flex;
-    flex-direction: column;
-    height: 200px;
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    background-color:transparent;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-    color:rgb(235, 193, 79);
-
-}
 
 
 .text1{
@@ -90,19 +73,6 @@ a{
     flex-direction: row;
 }
 
-.container2{
-    display:flex;
-    flex-direction: row;
-    height: auto;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 10px;
-    padding-left: 2%;
-    background-color: transparent;
-    border-radius: 30px;
-    
-}
-
 .allText{
     display: flex;
     flex-direction: column;
@@ -113,6 +83,7 @@ a{
     color:rgb(25, 29, 29);
     border-radius: 30px;
     background-color: rgb(126, 153, 161);
+    
 }
 
 .imageText{
@@ -126,19 +97,46 @@ a{
     border-radius: 30px;
 }
 
-
-.container3{
-    display:flex;
-    height: 200px;
-    margin-left: 0%;
-    margin-right: 0%;
-    background: rgb(119, 161, 161);
-    border-radius: 30px;
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 }
 
+.container1{    
+    background: linear-gradient(black,red);
+    font-size: large;
 
+}
+.container2{            
+    background: linear-gradient(black, rgb(126, 153, 161));
+    font-size: medium;
+    }
 
+.container3{
+    background: linear-gradient(black,gold);
+    font-size: small;
+}
 
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;    
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
 
 
 
@@ -147,9 +145,9 @@ footer{
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin-top: auto;
+    
     justify-content: space-between;
-    background-color: transparent; 
+    background: gray; 
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 18px;
