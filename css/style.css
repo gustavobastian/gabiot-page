@@ -1,0 +1,101 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.brand-logo-local{
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+#index-banner {
+ 
+ background-color: white;
+}
+
+section{
+  display: grid;
+  place-items: center;
+  align-content: center;
+  
+}
+
+.container1{    
+  background: linear-gradient(black,red);
+  font-size: large;
+  height: 100px;
+}
+.container2{            
+  background: linear-gradient(black, rgb(126, 153, 161));
+  font-size: medium;
+  height: 100vh;
+  }
+
+.container3{
+  background: linear-gradient(black,gold);
+  font-size: small;
+  height: 100vh;
+}
+
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show{
+  opacity: 1;    
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+  .hidden{
+      transition: none;
+  }
+}
+
+
+
+
+footer{    
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  
+  justify-content: space-between;
+  /*background: gray; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left:25px;
+  font-size: 18px;
+}
+
+.rigth{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  width: 50%;
+  text-align: right;
+  
+}
+.left{
+  display:flex;    
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 50%;
+  padding-right: 0;
+  text-align: left;
+}
